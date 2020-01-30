@@ -1,0 +1,145 @@
+.topnav {
+    background-color: lightgrey;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 17px;
+  }
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.topnav a.active {
+  background-color: darkslategray;
+  color: lightgray;
+  font-size: 19px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    width: 1200px;
+    border: 5px solid slategray;
+    padding: 20px;
+    margin: auto;
+    outline-style: double;
+    background-color: rgba(69, 68, 75, 0.4) 
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;
+    border: 5px solid slategray;
+    padding: 20px;
+    outline-style: double;
+    background-color: rgba(69, 68, 75, 0.4)
+}
+
+h3{
+    color: whitesmoke;
+    font-size: 23px;
+    text-align: center;
+    width: 600px;
+    border: 5px solid slategray;
+    padding: 20px;
+    outline-style: double;
+    background-color: rgba(69, 68, 75, 0.4)
+}
+
+p{
+    color:whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
+    width: 600px;
+    border: 5px solid slategray;
+    padding: 20px;
+    outline-style: double;
+    background-color: rgba(69, 68, 75, 0.4)
+}
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.arya{
+    background-image: url("arya_xl.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bronn{
+    background-image: url("Bronn_xl.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lupin{
+    background-image: url("lupin_xl.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.min{
+    background-image: url("min_xl.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.stat{
+    background-image: url("statler_xl.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pubg{
+    background-image: url("pubg_xl.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mup_txt{
+    font-family: 'Days One', sans-serif;
+}
+
+.GoT_txt{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.pubg_txt{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.harry_txt{
+    font-family: 'Cormorant Garamond', serif;    
+}
+
+.column{
+    column-count: 1;
+    column-gap: 30px;
+    column-width: 500;
+    column-span: none;
+    column-fill: auto;
+}
+
+
+/* .column_image{
+    column-width: 400;
+    column-fill: auto;
+    column-span: none;    
+} */
