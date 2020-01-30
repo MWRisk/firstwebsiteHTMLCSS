@@ -41,7 +41,7 @@ h2{
     color: whitesmoke;
     font-size: 30px;
     text-align: center;
-    width: 600px;
+    /* width: 600px; */
     border: 5px solid slategray;
     padding: 20px;
     outline-style: double;
@@ -52,7 +52,7 @@ h3{
     color: whitesmoke;
     font-size: 23px;
     text-align: center;
-    width: 600px;
+    /* width: 600px; */
     border: 5px solid slategray;
     padding: 20px;
     outline-style: double;
@@ -63,12 +63,17 @@ p{
     color:whitesmoke;
     text-align: center;
     font-family: sans-serif;
-    width: 600px;
+    /* width: 600px; */
     border: 5px solid slategray;
     padding: 20px;
     outline-style: double;
     background-color: rgba(69, 68, 75, 0.4)
 }
+
+id=""
+
+}
+
 .right{
     float: right;
 }
@@ -130,16 +135,41 @@ p{
 }
 
 .column{
-    column-count: 1;
+    /* column-count: 2;
     column-gap: 30px;
-    column-width: 500;
-    column-span: none;
-    column-fill: auto;
+    column-width: 300px; */
+    width: 1200px;
+    margin-left: 41px;
+    /* background-color: red; */
 }
 
+.column_text{
+    float: left;
+    width: 700px;
+    /* column-span: none;
+    column-fill: auto; */
+    /* background-color: royalblue; */
+}
 
-/* .column_image{
-    column-width: 400;
-    column-fill: auto;
-    column-span: none;    
-} */
+.column_image{
+    float: right;
+    width: 400px;
+    /* column-fill: balance;
+    column-span: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: right;
+    justify-content: space-around; */
+    /* background-color: sandybrown; */
+}
+
+.column_image img{
+    width: 100% 
+}
+
+#homepage_text{
+    margin: auto;
+    width: 700px;
+}
